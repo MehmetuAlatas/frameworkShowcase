@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.432">
+    <testcase classname="This is sample feature for parallel execution" name="This sample scenario opens google" time="4.29">
+        <system-out>
+            <![CDATA[Given User go to the "https://www.google.com" page..........................passed
+Then User verify the page title is not empty................................passed
+And User close the browser..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
