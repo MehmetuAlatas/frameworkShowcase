@@ -41,8 +41,9 @@ The following tools are used.
 <a href="https://www.api.com" target="_blank" rel="noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3m3cQd-M2Gq5QXSik9qJSHGDBW3MvBoWFyA&usqp=CAU" alt="sql" width="50" height="50"/> </a>
  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="VScode" alt="VScode" width="40" height="40"/>&nbsp;
    <img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original-wordmark.svg" title="IntelliJ" alt="IntelliJ" width="40" height="40"/>&nbsp;
- 
-
 </p>
 
+ <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7300e6&height=250&section=footer&text=I+am+open+to+your+new+ideas&fontSize=50&fontAlignY=65&desc=Please%20feel%20free%20for%20sharing%20your%20opinion%20&descSize=20&descAlignY=88&animation=twinkling"/>
+</div>
 
