@@ -17,8 +17,8 @@ public class UIsampleStepDefs {
 
     @Then("User verify the page title is not empty")
     public void user_verify_the_page_title_is_not_empty() throws InterruptedException {
-        Assert.assertTrue(false);
-     //  Assert.assertFalse(Driver.getDriver().getTitle().isEmpty());
+      //  Assert.assertTrue(false);
+      Assert.assertFalse(Driver.getDriver().getTitle().isEmpty());
        // Thread.sleep(3000);
     }
 
