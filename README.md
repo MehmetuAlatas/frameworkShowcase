@@ -2,10 +2,12 @@
 <p align="center">
   <h3 align="center">⌨️ My goal is to briefly present you the best practices of test automation</h3>
 </p>-->
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Parallel+running+with+Cucumber;Api+testing+by+using+RestAssured;Getting+very+good+reports;Providing+CI+CD+with+jenkins&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
 </p>
+<div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="200"/>
+</div>
 <!--<div align="center">
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=%237E3ACE&size=30&center=true&vCenter=true&width=450&lines=_Welcome+to+frameworkShowcase"></a>
 </div>-->
