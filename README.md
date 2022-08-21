@@ -1,6 +1,13 @@
 # frameworkShowcase
 
-Simple overview of use/purpose.
+- ✍️ My goal is to briefly present you the best practices of test automation. <br/>
+- ✍️ Parallel running with Cucumber<br/>
+- ✍️ getting very good reports.<br/>
+- ✍️ Providing CI and CD with jenkins.<br/>
+
+
+## 📫 How to reach me : [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/mehmetualatas/) <!--[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/MehmetuAlatas)-->
+
 
 ## Description
 
