@@ -15,16 +15,16 @@ public class Hooks {
 
     public static RequestSpecification spec;
 
-    @Before(value = "@Api")
+    @Before(value = "@api")
     public void baseUrlSetUp() {
-        spec = new RequestSpecBuilder().setBaseUri(ConfigurationReader.getProperty("base_url")).build();
+        spec = new RequestSpecBuilder().setBaseUri(ConfigurationReader.getProperty("api_base_url")).build();
     }
 
 
-//    @Before
-//    public void setUp() {
-//        Driver.getDriver().get(ConfigurationReader.getProperty("medunna_login_url"));
-//    }
+    @Before(value = "@webpage")
+    public void setUp() {
+        Driver.getDriver().get(ConfigurationReader.getProperty("base_url"));
+    }
 
     @After
     public void tearDown(Scenario scenario) {
@@ -33,9 +33,10 @@ public class Hooks {
             final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
 
             scenario.attach(screenshot, "image/png", "screenshots");
+
+          //  Driver.close();
         }
 
-      //Driver.close();
     }
 
 
