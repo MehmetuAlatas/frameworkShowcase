@@ -21,10 +21,10 @@ public class Hooks {
     }
 
 
-    @Before(value = "@webpage")
-    public void setUp() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("base_url"));
-    }
+//    @Before(value = "@google")
+//    public void setUp() {
+//        Driver.getDriver().get(ConfigurationReader.getProperty("base_url"));
+//    }
 
     @After
     public void tearDown(Scenario scenario) {

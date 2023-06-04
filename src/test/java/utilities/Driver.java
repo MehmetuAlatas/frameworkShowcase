@@ -10,8 +10,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
-import org.openqa.selenium.remote.BrowserType;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -45,10 +44,10 @@ public class Driver {
                     WebDriverManager.firefoxdriver().setup();
                     driver.set(new FirefoxDriver());
                     break;
-                case "opera":
-                    WebDriverManager.operadriver().setup();
-                    driver.set(new OperaDriver());
-                    break;
+//                case "opera":
+//                    WebDriverManager.operadriver().setup();
+//                    driver.set(new OperaDriver());
+//                    break;
                 case "firefox_headless":
                     WebDriverManager.firefoxdriver().setup();
                     driver.set(new FirefoxDriver(new FirefoxOptions().setHeadless(true)));
@@ -75,26 +74,26 @@ public class Driver {
                     driver.set(new SafariDriver());
                     break;
 
-                case "remote_chrome":
-                    try {
-                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                        desiredCapabilities.setBrowserName(BrowserType.CHROME);
-                        desiredCapabilities.setCapability("platform", Platform.ANY);
-                        driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), desiredCapabilities));
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    break;
-                case "remote_firefox":
-                    try {
-                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                        desiredCapabilities.setBrowserName(BrowserType.FIREFOX);
-                        desiredCapabilities.setCapability("platform", Platform.ANY);
-                        driver.set(new RemoteWebDriver(new URL("http://ec2-3-88-210-43.compute-1.amazonaws.com:4444/wd/hub"), desiredCapabilities));
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    break;
+//                case "remote_chrome":
+//                    try {
+//                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+//                        desiredCapabilities.setBrowserName(BrowserType.CHROME);
+//                        desiredCapabilities.setCapability("platform", Platform.ANY);
+//                        driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), desiredCapabilities));
+//                    } catch (Exception e) {
+//                        e.printStackTrace();
+//                    }
+//                    break;
+//                case "remote_firefox":
+//                    try {
+//                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+//                        desiredCapabilities.setBrowserName(BrowserType.FIREFOX);
+//                        desiredCapabilities.setCapability("platform", Platform.ANY);
+//                        driver.set(new RemoteWebDriver(new URL("http://ec2-3-88-210-43.compute-1.amazonaws.com:4444/wd/hub"), desiredCapabilities));
+//                    } catch (Exception e) {
+//                        e.printStackTrace();
+//                    }
+//                    break;
             }
         }
         //return corresponded to thread id webdriver object
